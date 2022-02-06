@@ -256,21 +256,31 @@
          <div class="container">
             <div class="divider"></div>
             <div class="heading">
-               <h2>SHOOT A MESSAGE</h2>
+               <h2>Don’t hesitate to contact me!</h2>
+               <br>
+               <style>
+                  .emailLine {
+                     font-family: Lato,sans-serif;
+                     font-weight: 700;
+                     font-size: 14px;
+                     text-decoration: none;
+                     color: #d82c2e;
+                     border: 1px solid #d82c2e;
+                     padding: 18px 50px;
+                     display: inline-block;
+                     border-radius: 3px;
+                     transition: all .3s ease-in,0s;
+                  }
+                  .emailLine:hover {
+                     background-color: #d82c2e;
+                     color: #fff;
+                  }
+               </style>
+               <a href="mailto:hello@prateekjain.net" class="emailLine">
+                  hello@prateekjain.net
+               </a>
             </div>
-            <div class="form">
-               <div class="col-xs-12 col-sm-9 col-md-9 centered">
-                  <form method="post" action="" class="contactform">
-                     <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." required>
-                     <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" placeholder="Your email..." required>
-                     <textarea name="msg" id="msg" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..." required></textarea>
-                     <p><input type="submit" value="SEND MESSAGE"></p>
-                     <center>
-                        <div id="toggleText" style="display: none"><img src="loader.gif" height="40px" width="40px"></div>
-                     </center>
-                  </form>
-               </div>
-            </div>
+              
          </div>
       </section>
       <div class="clear"></div>
